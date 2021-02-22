@@ -1,6 +1,6 @@
 module.exports = {
   verbose: true,
-  collectCoverage: !!process.env.TRAVIS || !!process.env.COVERAGE,
+  collectCoverage: !!process.env.CI,
   collectCoverageFrom: [
     'src/**/*.ts',
   ],

@@ -43,8 +43,8 @@ Copyright (c) 2021 Ivan Zakharchanka
 [npm-url]: https://www.npmjs.com/package/socket-cache
 [downloads-image]: https://img.shields.io/npm/dw/socket-cache.svg?maxAge=43200
 [npm-image]: https://img.shields.io/npm/v/socket-cache.svg?maxAge=43200
-[github-url]: https://github.com/3axap4eHko/socket-cache/actions
-[github-image]: https://github.com/3axap4eHko/socket-cache/workflows/Build%20Package/badge.svg?branch=master
+[github-url]: https://github.com/3axap4eHko/socket-cache/actions/workflows/build.yml
+[github-image]: https://github.com/3axap4eHko/socket-cache/actions/workflows/build.yml/badge.svg?branch=master
 [codecov-url]: https://codecov.io/gh/3axap4eHko/socket-cache
 [codecov-image]: https://codecov.io/gh/3axap4eHko/socket-cache/branch/master/graph/badge.svg?maxAge=43200
 [snyk-url]: https://snyk.io/test/npm/socket-cache/latest
