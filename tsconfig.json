@@ -1,27 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es2015",
-    "module": "commonjs",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
+    "strict": true,
+    "target": "esnext",
+    "module": "ESNext",
+    "declaration": true,
     "esModuleInterop": true,
-    "sourceMap": true,
-    "lib": [
-      "es2015.core",
-      "es6"
-    ],
-    "declaration": false,
+    "moduleResolution": "nodenext",
     "rootDir": "src",
     "outDir": "build"
   },
-  "include": [
-    "src/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/__fixtures__/**.ts",
-    "**/__tests__/**.ts",
-    "**/__mocks__/**.ts"
-  ]
+  "include": ["src/*.ts"],
+  "exclude": ["node_modules", "__tests__"]
 }

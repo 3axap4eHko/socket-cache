@@ -1,2 +1,2 @@
-export { default as cache } from './cache';
-export { default as intercept } from './intercept';
+export { default as cache } from './createCache.js';
+export { default as intercept } from './intercept.js';

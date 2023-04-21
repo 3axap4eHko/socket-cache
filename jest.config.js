@@ -1,23 +1,16 @@
-module.exports = {
+export default {
   verbose: true,
   collectCoverage: !!process.env.CI,
-  collectCoverageFrom: [
-    'src/**/*.ts',
-  ],
-  coveragePathIgnorePatterns: [
-    '/node_modules/',
-    '__fixtures__',
-    '__mocks__',
-    '__tests__',
-  ],
-  transform: {
-    '^.+\\.tsx?$': 'ts-jest',
+  collectCoverageFrom: ['src/**/*.ts'],
+  testEnvironment: 'node',
+  coveragePathIgnorePatterns: ['/coverage', '/node_modules/', '__tests__'],
+  extensionsToTreatAsEsm: ['.ts'],
+  moduleNameMapper: {
+    '^(\\.{1,2}/.*)\\.js$': '$1',
   },
   coverageDirectory: './coverage',
-  transformIgnorePatterns: ['/node_modules/'],
-  setupFiles: ['dotenv/config'],
-  testMatch: [
-    '<rootDir>/src/**/__tests__/**/*.ts',
-    !process.env.TRAVIS && '<rootDir>/src/**/__tests__/**/*.ts',
-  ].filter(Boolean),
+  transform: {
+    '^.+\\.ts$': '@swc/jest',
+  },
+  testMatch: ['**/__tests__/**/*.ts'],
 };
