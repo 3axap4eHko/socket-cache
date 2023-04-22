@@ -838,7 +838,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^18.15.12":
+"@types/node@*", "@types/node@^18.15.13":
   version "18.15.13"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.13.tgz#f64277c341150c979e42b00e4ac289290c9df469"
   integrity sha512-N+0kuo9KgrUQ1Sn/ifDXsvg0TTleP7rIy4zOBGECxAljqvqfqpTfzx0Q1NUedOixRMBfe2Whhb056a42cWs26Q==
@@ -1388,10 +1388,10 @@ esprima@^4.0.0:
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
-evnty@^1.0.19:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/evnty/-/evnty-1.1.0.tgz#d47186a0a33c7ebfaa6f46a3c6e401059a208edc"
-  integrity sha512-nXFMevdlVACpr2K3ENtX3aHx+v/Nkmeq5hngyHhuRjd8HxV+322ydeY/7FEDggwmC/+e5TojG1q5yeZ0U78ZDg==
+evnty@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/evnty/-/evnty-1.1.1.tgz#a762c0230c597d247c48e4c256a16401e3af6606"
+  integrity sha512-lClZLOs8F3zr8v4UwDSmW2KP7OH595GJNe+ki+1XR3d+IJJOSIffoBXo+68jtHEAippnpyCslO+BoUdmJsU1/Q==
 
 execa@^0.7.0:
   version "0.7.0"
