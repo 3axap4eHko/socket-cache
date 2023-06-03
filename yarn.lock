@@ -1150,9 +1150,9 @@ diff-sequences@^29.4.3:
   integrity sha512-ofrBgwpPhCD85kMKtE9RYFFq6OC1A89oW2vvgWZNCwxrUpRUILopY7lsYyMDSjc8g6U6aiO0Qubg6r4Wgt5ZnA==
 
 electron-to-chromium@^1.4.411:
-  version "1.4.417"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.417.tgz#a0c7eb992e68287fa50c8da5a5238b01f20b9a82"
-  integrity sha512-8rY8HdCxuSVY8wku3i/eDac4g1b4cSbruzocenrqBlzqruAZYHjQCHIjC66dLR9DXhEHTojsC4EjhZ8KmzwXqA==
+  version "1.4.419"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.419.tgz#6fbea1f3abb65bf46e8ad874b5c1f0816ce2f8ce"
+  integrity sha512-jdie3RiEgygvDTyS2sgjq71B36q2cDSBfPlwzUyuOrfYTNoYWyBxxjGJV/HAu3A2hB0Y+HesvCVkVAFoCKwCSw==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -1192,9 +1192,9 @@ esprima@^4.0.0:
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
 evnty@^1.1.1:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/evnty/-/evnty-1.1.13.tgz#195ba396e2d457ac76e91e84dc55815438452299"
-  integrity sha512-rXZhrQ6QVwL2CNO2b0yNBUl+Jdit8UESzHayTA/0QLkKogMGgb+JgQNLLF2KjK4teKpiPRWQA+50qVIykW/0tg==
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/evnty/-/evnty-1.1.14.tgz#8fcc8ad94aa48a9f3594d5c747647b27e9e4e0ae"
+  integrity sha512-Zpq0VGqAPI8SEfpOVXxYgayXfzfJ/pTuntVmyXQQTC+uWV4H3O38e5e4v5awvGD7s+VpLtIQzaBB9B4V/ctrbA==
 
 execa@^5.0.0:
   version "5.1.1"
