@@ -984,9 +984,9 @@ camelcase@^6.2.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001489:
-  version "1.0.30001494"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001494.tgz#3e56e04a48da7a79eae994559eb1ec02aaac862f"
-  integrity sha512-sY2B5Qyl46ZzfYDegrl8GBCzdawSLT4ThM9b9F+aDYUrAG2zCOyMbd2Tq34mS1g4ZKBfjRlzOohQMxx28x6wJg==
+  version "1.0.30001495"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001495.tgz#64a0ccef1911a9dcff647115b4430f8eff1ef2d9"
+  integrity sha512-F6x5IEuigtUfU5ZMQK2jsy5JqUUlEFRVZq8bO2a+ysq5K7jD6PPc9YXZj78xDNS3uNchesp1Jw47YXEqr+Viyg==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -1150,9 +1150,9 @@ diff-sequences@^29.4.3:
   integrity sha512-ofrBgwpPhCD85kMKtE9RYFFq6OC1A89oW2vvgWZNCwxrUpRUILopY7lsYyMDSjc8g6U6aiO0Qubg6r4Wgt5ZnA==
 
 electron-to-chromium@^1.4.411:
-  version "1.4.419"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.419.tgz#6fbea1f3abb65bf46e8ad874b5c1f0816ce2f8ce"
-  integrity sha512-jdie3RiEgygvDTyS2sgjq71B36q2cDSBfPlwzUyuOrfYTNoYWyBxxjGJV/HAu3A2hB0Y+HesvCVkVAFoCKwCSw==
+  version "1.4.422"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.422.tgz#b04d0a209889f46858a4ab05f737fb81b99fec91"
+  integrity sha512-OQMid0IRbJv27BhlPiBK8CfGzjeq4ZCBSmpwNi1abyS8w17/BajOUu7hBI49ptDTBCz9NRFbORhWvt41dF7dwg==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -1192,9 +1192,9 @@ esprima@^4.0.0:
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
 evnty@^1.1.1:
-  version "1.1.15"
-  resolved "https://registry.yarnpkg.com/evnty/-/evnty-1.1.15.tgz#ccf20e3a6e7e741739f2f0d38062f263c3be7690"
-  integrity sha512-DSxFzwtN/iIG6Vt+Wdcpc5dEB5B0Cx3DfKZl0s11z1LRGGcU1OSNkIWNQQaCAEJPGBbXFekjp0ayszwWAqoitA==
+  version "1.1.16"
+  resolved "https://registry.yarnpkg.com/evnty/-/evnty-1.1.16.tgz#77a339d787159171c9c9b47369c93a35ab86c22c"
+  integrity sha512-AXd0+m9IvvtNXXRT1HH7hOWGdmvH53wTiBtQYhnG42dbyXpE6t1/Nz+CQ8x7MT/CfjVih+dlkD/Thglofj/dJQ==
 
 execa@^5.0.0:
   version "5.1.1"
