@@ -742,9 +742,9 @@
     pretty-format "^29.0.0"
 
 "@types/node@*":
-  version "20.4.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.10.tgz#73c9480791e3ddeb4887a660fc93a7f59353ad45"
-  integrity sha512-vwzFiiy8Rn6E0MtA13/Cxxgpan/N6UeNYR9oUu6kuJWxu6zCk98trcDp8CBhbtaeuq9SykCmXkFr2lWLoPcvLg==
+  version "20.5.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.5.0.tgz#7fc8636d5f1aaa3b21e6245e97d56b7f56702313"
+  integrity sha512-Mgq7eCtoTjT89FqNoTzzXg2XvCi5VMhRV6+I2aYanc6kQCBImeNaAYRs/DyoVqk1YEUJK5gN9VO7HRIdz4Wo3Q==
 
 "@types/node@^18.15.13":
   version "18.17.5"
@@ -1180,9 +1180,9 @@ esprima@^4.0.0:
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
 evnty@^1.1.1:
-  version "1.1.34"
-  resolved "https://registry.yarnpkg.com/evnty/-/evnty-1.1.34.tgz#6b70906ab796571573f6d5ea512e96660d06a939"
-  integrity sha512-FXF+lKeDy4e1HfR9V4UlwPKuYbFl1R9TYemWhucJwCmOyUgZWNyTTKlviaTxDnt5teXbZRA6FxurTy3bTage9Q==
+  version "1.1.35"
+  resolved "https://registry.yarnpkg.com/evnty/-/evnty-1.1.35.tgz#bd35eaff9467f2c13fdf83177e16663d96a32ddf"
+  integrity sha512-AQub8wS4oUq6xj0Z0Mepn6HhxYkkX5QYIxRGC9PGi0T0T+msVP2ZiwIbq6R6A+ReDrdF99T6FSpa7wFMZT5VJA==
 
 execa@^5.0.0:
   version "5.1.1"
