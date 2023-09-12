@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
     "strict": true,
-    "target": "esnext",
-    "module": "ESNext",
+    "target": "ESNext",
+    "module": "NodeNext",
     "declaration": true,
     "esModuleInterop": true,
-    "moduleResolution": "nodenext",
+    "moduleResolution": "NodeNext",
     "rootDir": "src",
     "outDir": "build"
   },
