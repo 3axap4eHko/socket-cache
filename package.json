@@ -1,7 +1,7 @@
 {
   "name": "socket-cache",
   "description": "NodeJS socket caching library",
-  "version": "0.1.119",
+  "version": "0.1.120",
   "type": "module",
   "types": "build/index.d.ts",
   "main": "build/index.cjs",
