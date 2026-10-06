@@ -1,56 +1,48 @@
 name: Autoupdate
-
 on:
   schedule:
     - cron: 0 0 * * *
-  workflow_dispatch:
-
+  workflow_dispatch: null
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version:
+          - 18.x
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26
       - name: Use Node.js ${{ matrix.node-version }} 🟢
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610
         with:
           node-version: ${{ matrix.node-version }}
           registry-url: https://registry.npmjs.org/
-
       - name: Setup ENV ⚙️
         id: env
         run: |
           node --version
           yarn --version
-
       - name: Install 🔧
         run: |
           yarn install --frozen-lockfile
-
       - name: Upgrade 🌠
         id: updates
         run: |
           PENDING=$(yarn outdated --json|tail -1|jq '.data.body'|jq length)
-          echo "::set-output name=PENDING::$PENDING"
+          echo "PENDING=$PENDING" >> "$GITHUB_OUTPUT"
           yarn upgrade
           DONE=$(yarn outdated --json|tail -1|jq '.data.body'|jq length)
-          echo "::set-output name=DONE::$DONE"
-
+          echo "DONE=$DONE" >> "$GITHUB_OUTPUT"
       - name: Build 🧱
         if: steps.updates.outputs.PENDING != steps.updates.outputs.DONE
         run: |
           yarn build
-
       - name: Test 🧪
         if: steps.updates.outputs.PENDING != steps.updates.outputs.DONE
         run: |
           yarn test
           yarn test:build
-
       - name: Commit 🔒
         if: steps.updates.outputs.PENDING != steps.updates.outputs.DONE
         run: |
@@ -59,15 +51,25 @@ jobs:
           git add --all
           git commit -am "autoupdate"
           npm version patch
-
       - name: Push
         if: steps.updates.outputs.PENDING != steps.updates.outputs.DONE
         run: |
           git push
           git push --tags
-
+      - name: Setup publishing runtime
+        if: steps.updates.outputs.PENDING != steps.updates.outputs.DONE
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: 24.18.0
+          registry-url: https://registry.npmjs.org
+          package-manager-cache: false
+      - name: Prepare npm publishing
+        if: steps.updates.outputs.PENDING != steps.updates.outputs.DONE
+        run: npm install --global npm@11.19.1
       - name: Publish 📚
         if: steps.updates.outputs.PENDING != steps.updates.outputs.DONE
         run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
           npm publish
+    permissions:
+      contents: write
+      id-token: write
